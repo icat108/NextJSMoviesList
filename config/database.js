@@ -9,6 +9,6 @@ const koneksi = mysql.createConnection({
 
 koneksi.connect((err) => {
   if (err) throw err;
-  console.log("MySQL Connected cuy ....");
+  console.log("MySQL Sudah Terkoneksi dengan baik dan benar....");
 });
 module.exports = koneksi;
